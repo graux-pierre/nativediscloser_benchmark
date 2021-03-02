@@ -1,0 +1,3 @@
+[submodule "native_disclosure_bm1"]
+	path = native_disclosure_bm1
+	url = git@github.com:gaojun0816/native_disclosure_bm1.git
