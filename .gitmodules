@@ -7,3 +7,6 @@
 [submodule "native_disclosure_bm3"]
 	path = native_disclosure_bm3
 	url = git@github.com:gaojun0816/native_disclosure_bm3.git
+[submodule "native_disclosure_bm4"]
+	path = native_disclosure_bm4
+	url = git@github.com:gaojun0816/native_disclosure_bm4.git
