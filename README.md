@@ -13,3 +13,5 @@ This benchmark cover scenarios listed below:
 + cover all different kinds of relevent JNI API functions (e.g., "FindClass" and "GetObjectClass" to get Java class).
 + maybe test cases with loops.
 + maybe test cases with class-encapsulation of certain relevant JNI API functions and/or variables by coding in C++ instead of C.
+
+All these projects are workable and tested on a Nexus 5 device with Android version 8.1.0.
