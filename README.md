@@ -15,3 +15,5 @@ This benchmark cover scenarios listed below:
 + maybe test cases with class-encapsulation of certain relevant JNI API functions and/or variables by coding in C++ instead of C.
 
 All these projects are workable and tested on a Nexus 5 device with Android version 8.1.0.
+
++ Overchan-Android: Open source application from FDroid. In this app, there is 1 back invocation (i.e., invocation Java methods from native libraries) spotted. However, the relevant java class and object are passed via a customized C structure. Since the structure cannot be parsed, the relevant class cannot be obtained.

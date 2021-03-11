@@ -25,3 +25,6 @@
 [submodule "native_disclosure_bm9"]
 	path = native_disclosure_bm9
 	url = git@github.com:gaojun0816/native_disclosure_bm9.git
+[submodule "Overchan-Android"]
+	path = Overchan-Android
+	url = git@github.com:miku-nyan/Overchan-Android.git
