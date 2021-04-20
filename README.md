@@ -8,8 +8,8 @@ The apps in this benchmark includes both self-developed apps as well as some ope
 So far, there are 16 self-developed apps which are the apps with name started with "native_disclosure_bm". The scenarios they implemented are described below:
 
 + bm1: it uses both static and dynamic JNI function registration, 1 JNI function invokes an Android Java API, and the Java API method is obtained via a passed in Java object.
-+ bm2: based on *bm1*, changed it to use only static JNI function registration.
-+ bm3: based on *bm1*, changed it to use only dynamic JNI function registration.
++ bm2: based on *bm1*, changed it to use only dynamic JNI function registration.
++ bm3: based on *bm1*, changed it to use only static JNI function registration.
 + bm4: based on *bm1*, the JNI API function `RegisterNatives` for dynamic registration is further wrapped up with a customized C function.
 + bm5: based on *bm4*, the wrapper function is further put into a header file (i.e., *\*.h* file).
 + bm6: based on *bm1*, instead of passing Java object, used Java `this` object to obtain relevant Java APIs.
