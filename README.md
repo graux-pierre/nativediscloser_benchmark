@@ -5,7 +5,7 @@ Since, for most of Android analysis tools, native analysis is rarely implemented
 
 The apps in this benchmark includes both self-developed apps as well as some open-sourced apps from [*F-Droid*](https://www.f-droid.org/). For self-developed apps, on one hand, we try to make it simple to understand and easy to be verified. On the other hand, they have to cover different scenarios.
 
-So far, there are 16 self-developed apps which are the apps with name started with "native_disclosure_bm". The scenarios they implemented are described below:
+So far, there are 17 self-developed apps which are the apps with name started with "native_disclosure_bm". The scenarios they implemented are described below:
 
 + bm1: it uses both static and dynamic JNI function registration, 1 JNI function invokes an Android Java API, and the Java API method is obtained via a passed in Java object.
 + bm2: based on *bm1*, changed it to use only dynamic JNI function registration.
@@ -23,5 +23,6 @@ So far, there are 16 self-developed apps which are the apps with name started wi
 + bm14: based on *bm1*, added more strings of methods and classes but not used to invoke. 
 + bm15: based on *bm1*, using relevant strings from string arrays.
 + bm16: based on *bm1*, get relevant strings by invoking methods of a C++ class with returns of different string representations.
++ bm17: it uses JNI to access to java fields.
 
 All self-developed apps are executable and tested with a Nexus 5 device with Android version 8.1.0.
