@@ -24,5 +24,8 @@ So far, there are 17 self-developed apps which are the apps with name started wi
 + bm15: based on *bm1*, using relevant strings from string arrays.
 + bm16: based on *bm1*, get relevant strings by invoking methods of a C++ class with returns of different string representations.
 + bm17: it uses JNI to access to java fields.
++ bm18: it uses JNI to access to java strings.
++ bm19: it uses JNI to access to java arrays.
++ bm20: it uses JNI to manage exceptions.
 
 All self-developed apps are executable and tested with a Nexus 5 device with Android version 8.1.0.

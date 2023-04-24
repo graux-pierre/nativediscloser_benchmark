@@ -49,3 +49,12 @@
 [submodule "native_disclosure_bm17"]
 	path = native_disclosure_bm17
 	url = git@github.com:graux-pierre/native_disclosure_bm17.git
+[submodule "native_disclosure_bm18"]
+	path = native_disclosure_bm18
+	url = git@github.com:graux-pierre/native_disclosure_bm18.git
+[submodule "native_disclosure_bm19"]
+	path = native_disclosure_bm19
+	url = git@github.com:graux-pierre/native_disclosure_bm19.git
+[submodule "native_disclosure_bm20"]
+	path = native_disclosure_bm20
+	url = git@github.com:graux-pierre/native_disclosure_bm20.git
